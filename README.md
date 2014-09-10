@@ -8,6 +8,7 @@ Included plugins
 * [pathogen.vim](https://github.com/tpope/vim-pathogen): Automatically loads other plugins in the bundle directory.
 * [vim-mustache-handlebars](https://github.com/mustache/vim-mustache-handlebars): syntax highlighting etc. for mustache/handlebar templates
 * [vim-localrc](https://github.com/thinca/vim-localrc): Loads .local.vimrc files in files system tree of the directory.
+* [vim-fugitive](git://github.com/tpope/vim-fugitive.git): Git wrapper (:Gedit, :Gstatus ...).
 
 Install
 -------
