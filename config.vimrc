@@ -5,7 +5,14 @@ syntax on
 filetype plugin indent on
 
 " ====================================================================
-" marco
+" plugin configuration
+" ====================================================================
+
+" mustache-handlebars abbreveations (e.g. {{ automatically extends to {{ }} )
+let g:mustache_abbreviations = 1
+
+" ====================================================================
+" personal settings
 " ====================================================================
 
 " show linenumber 

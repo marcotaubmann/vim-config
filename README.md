@@ -6,14 +6,16 @@ This repo collects vim configuration and plugins.
 Install
 -------
     cd ~
-    git clone git://github.com/marcotaubmann/vim-config ./.vim
+    git clone git://github.com/marcotaubmann/vim-config .vim
+    cd .vim
     git submodule init
     git submodule update
-    echo "source .vim/config.vimrc" >> .vimrc
+    echo "source ~/.vim/config.vimrc" >> ../.vimrc
 
 Included plugins
 ----------------
 * [pathogen.vim](https://github.com/tpope/vim-pathogen): Automatically loads other plugins in the bundle directory.
+* [vim-mustache-handlebars](https://github.com/mustache/vim-mustache-handlebars): syntax highlighting etc. for mustache/handlebar templates
 
 
 Add a new vim plugin (e.g. vim-mustache-handlebars)
