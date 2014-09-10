@@ -4,3 +4,6 @@
 [submodule "bundle/vim-mustache-handlebars"]
 	path = bundle/vim-mustache-handlebars
 	url = https://github.com/mustache/vim-mustache-handlebars
+[submodule "bundle/vim-localrc"]
+	path = bundle/vim-localrc
+	url = https://github.com/thinca/vim-localrc
