@@ -7,9 +7,10 @@ Included plugins
 ----------------
 * [pathogen.vim](https://github.com/tpope/vim-pathogen): Automatically loads other plugins in the bundle directory.
 * [vim-mustache-handlebars](https://github.com/mustache/vim-mustache-handlebars): syntax highlighting etc. for mustache/handlebar templates
-* [vim-localrc](https://github.com/thinca/vim-localrc): Loads .local.vimrc files in files system tree of the directory.
+* [vim-localrc](https://github.com/thinca/vim-localrc): Loads .local.vimrc files in file system hierarchy of the directory. (maybe use example [.local.vimrc](./examples/.local.vimrc))
 * [vim-fugitive](http://github.com/tpope/vim-fugitive.git): Git wrapper (:Gedit, :Gstatus ...).
-* [emmet-vim](https://github.com/mattn/emmet-vim): Html expansion (e.g. ul>li*3&lt;c-y>,).
+* [emmet-vim](https://github.com/mattn/emmet-vim): Html expansion (e.g. ul&gt;li\*3&lt;c-y&gt;,).
+* [rename.vim](https://github.com/danro/rename.vim): Rename a buffer within Vim and on the disk (:rename[!] {newname}).
 
 Install
 -------

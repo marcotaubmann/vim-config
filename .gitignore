@@ -1,1 +1,9 @@
+# .netrwhist is a history file which maintains all the directories that
+# were modified
 .netrwhist
+
+# Usually you don't want to include this in your repositories since it
+# belongs to your personal settings. (You maybe have a .local.vimrc rule
+# in your global ~/.gitignore file.) But here it is an example/template
+# file which belongs to the repository.
+!examples/.local.vimrc

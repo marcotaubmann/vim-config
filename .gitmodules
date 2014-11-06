@@ -13,3 +13,6 @@
 [submodule "bundle/emmet-vim"]
 	path = bundle/emmet-vim
 	url = http://github.com/mattn/emmet-vim
+[submodule "bundle/rename.vim"]
+	path = bundle/rename.vim
+	url = https://github.com/danro/rename.vim

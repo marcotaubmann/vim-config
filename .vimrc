@@ -15,6 +15,17 @@ let g:mustache_abbreviations = 1
 " personal settings
 " ====================================================================
 
+" search ignorecase
+set ignorecase
+" search is casesensitive when pattern contains uppercase character
+set smartcase
+" search the next pattern while typing
+set incsearch
+" highlight all search results after typing enter
+set hlsearch
+" press enter to unhighligh the last search results
+nnoremap <CR> :nohlsearch<CR><CR>
+
 " show linenumber 
 set number
 
