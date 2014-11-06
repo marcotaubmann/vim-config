@@ -11,6 +11,7 @@ Included plugins
 * [vim-fugitive](http://github.com/tpope/vim-fugitive.git): Git wrapper (:Gedit, :Gstatus ...).
 * [emmet-vim](https://github.com/mattn/emmet-vim): Html expansion (e.g. ul&gt;li\*3&lt;c-y&gt;,).
 * [rename.vim](https://github.com/danro/rename.vim): Rename a buffer within Vim and on the disk (:rename[!] {newname}).
+* [vim-gitgutter](https://github.com/airblade/vim-gitgutter): Show git diff sign in front of each line.
 
 Install
 -------

@@ -16,3 +16,6 @@
 [submodule "bundle/rename.vim"]
 	path = bundle/rename.vim
 	url = https://github.com/danro/rename.vim
+[submodule "bundle/vim-gitgutter"]
+	path = bundle/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter
