@@ -15,7 +15,7 @@ Included plugins
 Install
 -------
     cd ~
-    git clone git://github.com/marcotaubmann/vim-config .vim
+    git clone https://github.com/marcotaubmann/vim-config .vim
     ln -s .vim/.vimrc
     cd .vim
     git submodule init
