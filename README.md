@@ -26,11 +26,8 @@ Settings
 Install
 -------
     cd ~
-    git clone https://github.com/marcotaubmann/vim-config .vim
+    git clone --recurse-submodules https://github.com/marcotaubmann/vim-config .vim
     ln -s .vim/.vimrc
-    cd .vim
-    git submodule init
-    git submodule update
 
 
 Add a new vim plugin (e.g. vim-mustache-handlebars)
