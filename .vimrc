@@ -28,6 +28,18 @@ let g:ctrlp_cmd = 'CtrlP'
 " personal settings
 " ====================================================================
 
+" encoding ===========================================================
+" use utf-8 as default encoding
+if has("multi_byte")
+  if &termencoding == ""
+    let &termencoding = &encoding
+  endif
+  set encoding=utf-8
+  setglobal fileencoding=utf-8
+  "setglobal bomb
+  set fileencodings=ucs-bom,utf-8,latin1
+endif
+
 " format =============================================================
 
 " insert spaces instead of tabs (use Ctrl-V<Tab> to insert a real tab)
@@ -85,9 +97,13 @@ set diffopt=filler,vertical
 
 " colorschemes
 syntax enable
-set background=dark
-" select one
-colorscheme monokai
+if has("win32") || has("win16")
+	" don't use any colorscheme on win
+else
+	set background=dark
+	colorscheme monokai
+endif
+
 " these only look good on gvim
 if has('gui_running')
 	colorscheme solarized
