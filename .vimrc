@@ -20,6 +20,10 @@ let g:airline#extensions#tabline#enabled = 1
 " enable fancy airline symbolds if the fonts are installed
 " let g:airline_powerline_fonts = 1
 
+" map ctrlp plugin to <c-p>
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+
 " ====================================================================
 " personal settings
 " ====================================================================
@@ -31,10 +35,10 @@ let g:airline#extensions#tabline#enabled = 1
 set expandtab
 
 " the number of spaces to insert when a tab is expanded
-set tabstop=2
+set tabstop=4
 
 " number of character for indentation
-set shiftwidth=2
+set shiftwidth=4
 
 " search =============================================================
 

@@ -15,6 +15,7 @@ Included plugins
   * [vim-colors-solarized](https://github.com/altercation/vim-colors-solarized): :colorscheme solarized
   * [vim-monokai](https://github.com/sickill/vim-monokai): :colorscheme monokai
   * [vim-airline](https://github.com/bling/vim-airline): Advanced statusline.
+  * [ctrlp.vim](https://github.com/ctrlpvim/ctrlp.vim): Fuzzy file search (&lt;c-p&gt;)
 
 Settings
 --------
